@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon CV</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #faf8f8;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .sidebar {
+      flex: 1;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+
+    .main-content {
+      flex: 3;
+      background-color: rgb(3, 3, 3);
+      padding: 20px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+
+    h1 {
+      color: #f4bdbd;
+      transition: transform 0.3s ease-in-out;
+    }
+    h1:hover{
+        color: aliceblue;
+        transform: translateX(20px);
+    }
+    h2{
+        color: #9c5a5a;
+    }
+    h2:hover {
+      color: #5b1e33; 
+      border: 2px solid #c23e56;
+    }
+    .photo-container {
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+      border: 2px solid #333;
+      transition: transform 0.3s ease-in-out;
+    }
+    .photo-container:hover{
+       
+        transform: translateX(20px);
+    }
+
+    .photo-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    p {
+      line-height: 1.6;
+      color:#666 ;
+    }
+    p:hover{
+        color:#f3e1e1;
+    }
+    ul{
+        color: #666 ;
+    }
+    ul:hover{
+        color:#f3e1e1;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #9c5a5a;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="photo-container">
+                <img src="Moi.jpeg">
+            </div>
+      <h1>Houda SAKKAOUI</h1>
+      <p>Adresse: Ainchok, Casablanca</p>
+      <p>Email: sakaouihouda@gmail.com</p>
+      <p>Téléphone: 0706786114</p>
+    </div>
+
+    <div class="main-content">
+      <h2>Profil</h2>
+      <p>Étudiante en Marketing digital passionnée par le digital.</p>
+
+      <h2>Formation</h2>
+      <p><strong>2021 -2024:</strong></br><strong> 3ème année en Marketing digital</strong></br>Ecole de management et des sciences informatiques Casablanca "Empsi"</p>   
+      <p><strong>2020 -2021:</strong></br><strong> 1ère année en sciences économiques</strong></br> Faculté des scinces économiques Ainchok</p>
+      <p><strong>2019 -2020:</strong></br><strong> Baccalauréat en sciences mathématiques </strong> </br> Ecole espaces des sciences</p>
+
+      <h2>Expérience Professionnelle</h2>
+      <p><strong>Octobre 2023 - Décembre 2023:</strong></br> <strong> Assistante Marketing digital</strong></br>  EMPSI Consulting</p>      
+      <p><strong>Avril 2023:</strong> </br><strong> Stage d'observation</strong></br>  EMPSI Consulting</p>
+      <p><strong>Août 2022:</strong></br> <strong> Stage d'observation</strong></br>Fabrilec</p>
+
+      <h2>Compétences</h2>
+      <ul>
+        <li>Sens de responsabilité</li>      
+        <li>Créativité</li>      
+        <li>Esprit d'équipe</li>      
+        <li>Persévérance</li>
+        <li>Rigueur</li>  
+      </ul>
+      <button>Télécharger</button>
+    </div>
+  </div>
+
+</body>
+</html>
